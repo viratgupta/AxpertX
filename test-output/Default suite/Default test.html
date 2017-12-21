@@ -1,0 +1,828 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 21 12:47:45 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>117 seconds (117332 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Scripts.ScriptExecution.EnterIncorrectDataAndValidate()'><b>EnterIncorrectDataAndValidate</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-32781695" onClick='toggleBox("Output-32781695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32781695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32781695">
+Entering Incorrect Data and validating it is throwing message or not<br/>
+selecting name value from dropdown<br/>
+selecting = value from dropdown<br/>
+Alert Message 'No Data to export.'<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ExportDataPresence()'><b>ExportDataPresence</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-12426532" onClick='toggleBox("Output-12426532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12426532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12426532">
+Verify the presence of Export Data Functionality<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ExportFileDataTypeAsCSV()'><b>ExportFileDataTypeAsCSV</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-23420222" onClick='toggleBox("Output-23420222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23420222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23420222">
+Selecting 'CSV' File Type from FileType Dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ExportFileDataTypeAsText()'><b>ExportFileDataTypeAsText</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-19957638" onClick='toggleBox("Output-19957638", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19957638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19957638">
+Selecting 'Text' File Type from FileType Dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.LoadAllRepositoriesAndEnterURL()'><b>LoadAllRepositoriesAndEnterURL</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-10714559" onClick='toggleBox("Output-10714559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10714559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10714559">
+Open Browser and Entering the URL<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.LoginToApp()'><b>LoginToApp</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-7513408" onClick='toggleBox("Output-7513408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7513408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7513408">
+Login to the Application<br/>
+Login is successful<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigateToDataSearchpage()'><b>NavigateToDataSearchpage</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-6968633" onClick='toggleBox("Output-6968633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6968633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6968633">
+After adding or deleting the conditions rows, Navigating to Data Search Page<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigateToExportPage()'><b>NavigateToExportPage</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-15231947" onClick='toggleBox("Output-15231947", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15231947" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15231947">
+Clicking on NextButton,navigating to Export Page<br/>
+Selecting 'EqualTo' value in 'Condition' dropdown field<br/>
+selecting = value from dropdown<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigateToFilterPageToCheckData()'><b>NavigateToFilterPageToCheckData</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-4726770" onClick='toggleBox("Output-4726770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4726770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4726770">
+Navigating to Filter Page and check the presence of data<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigatingThroughIcons()'><b>NavigatingThroughIcons</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-8869177" onClick='toggleBox("Output-8869177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8869177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8869177">
+Navigationg To any page throwugh icons<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigatingToCompletePage()'><b>NavigatingToCompletePage</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-33445801" onClick='toggleBox("Output-33445801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33445801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33445801">
+Navigationg to COMLETE Page<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigatingToCompletePageThroughIcons()'><b>NavigatingToCompletePageThroughIcons</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-29988340" onClick='toggleBox("Output-29988340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29988340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29988340">
+Navigationg To Complete page throwugh icons<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.NavigatingToPreviousPageFormCompletePage()'><b>NavigatingToPreviousPageFormCompletePage</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-16918814" onClick='toggleBox("Output-16918814", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16918814" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16918814">
+Navigationg To any previous(ExportPage) from Complete Page<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.OpenExportdatawindow()'><b>OpenExportdatawindow</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-14662744" onClick='toggleBox("Output-14662744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14662744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14662744">
+Verify whether Export Data window is openning or not<br/>
+ExpectedResult= Export Data ActualResult= Export Data<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.SelectValuefromFieldValue()'><b>SelectValuefromFieldValue</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-20701583" onClick='toggleBox("Output-20701583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20701583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20701583">
+Selecting the value from select dropdown field<br/>
+selecting name value from dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.SkipConditionPage()'><b>SkipConditionPage</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-27823080" onClick='toggleBox("Output-27823080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27823080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27823080">
+Skipping Condition Page and clicking on Next Button and Navigating to Export Page<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.TextFileType_SeparatorFieldIsEnabled()'><b>TextFileType_SeparatorFieldIsEnabled</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-14800592" onClick='toggleBox("Output-14800592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14800592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14800592">
+Selecting FileType as Text,and check whether 'Separator' Field is Enabled<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ValidateExportDataMessageWithCondition()'><b>ValidateExportDataMessageWithCondition</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-27822988" onClick='toggleBox("Output-27822988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27822988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27822988">
+Navigating to Complete Page and validate the message shown after records gets Exported With Conditions<br/>
+Alert Message '1 - records successfully exported.'<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ValidateExportDataMessageWithoutCondition()'><b>ValidateExportDataMessageWithoutCondition</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-16095507" onClick='toggleBox("Output-16095507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16095507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16095507">
+Navigating to Complete Page and validate the message shown after records gets Exported without conditions<br/>
+Alert Message '2 - records successfully exported.'<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ValidateFileIsDownloaded()'><b>ValidateFileIsDownloaded</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-28542609" onClick='toggleBox("Output-28542609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28542609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28542609">
+On Click of Download validating file is downloaded or not<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.ValidateWithQuoteIsDissable()'><b>ValidateWithQuoteIsDissable</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-24966748" onClick='toggleBox("Output-24966748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24966748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24966748">
+Validate 'WithQuote' is dissable when selected filetype is CSV<br/>
+Testcase FAIL<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerfiyMandatoryFields()'><b>VerfiyMandatoryFields</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-5746363" onClick='toggleBox("Output-5746363", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5746363" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5746363">
+Verify all the Manditory fields are present<br/>
+Mandatory Fields are present<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerfiySeparatorFieldisDissabled()'><b>VerfiySeparatorFieldisDissabled</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-6469052" onClick='toggleBox("Output-6469052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6469052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6469052">
+Selecting 'CSV' as File and check whether 'Separator' field is dissabled<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyADDconditionButton()'><b>VerifyADDconditionButton</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-21575042" onClick='toggleBox("Output-21575042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21575042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21575042">
+Validating ADD condition button on filter page<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyAddRowButton()'><b>VerifyAddRowButton</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-21610387" onClick='toggleBox("Output-21610387", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21610387" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21610387">
+Validating Add Condition button and it is adding new row or not<br/>
+Testcase PASS<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyAddRowButtonWithMultipleRows()'><b>VerifyAddRowButtonWithMultipleRows</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-572605" onClick='toggleBox("Output-572605", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-572605" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-572605">
+Verifying Add Rows by adding multple rows for conditions(Adding 3-Rows)<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyBothButtonAreSelected()'><b>VerifyBothButtonAreSelected</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-28023661" onClick='toggleBox("Output-28023661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28023661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28023661">
+Verifying both conditions buttons are selected at the same time<br/>
+Selected Radio button is OR condition Button<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyCompleteTooltip()'><b>VerifyCompleteTooltip</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-31888378" onClick='toggleBox("Output-31888378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31888378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31888378">
+Verify Tooltip for Complete<br/>
+ActualToolTip is Complete<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyConditionDropdown()'><b>VerifyConditionDropdown</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-23394982" onClick='toggleBox("Output-23394982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23394982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23394982">
+Verify the functionality of Condition Dropdown field<br/>
+Total Records9<br/>
+Equal to<br/>
+Not Equal to<br/>
+Less Than<br/>
+Greater Than<br/>
+Less Than or Equal to<br/>
+Greater Than or Equal to<br/>
+Between<br/>
+Starts With<br/>
+Ends With<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyConditionPageTitle()'><b>VerifyConditionPageTitle</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-22301414" onClick='toggleBox("Output-22301414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22301414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22301414">
+Verify the title of condition Page<br/>
+ExpectedResult= Conditions ActualResult= Conditions<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyConditionSelectField()'><b>VerifyConditionSelectField</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-15231166" onClick='toggleBox("Output-15231166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15231166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15231166">
+Verify the functionality of select 'Field' dropdown on condition page<br/>
+Field has 3 values<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyDataSearchTooltip()'><b>VerifyDataSearchTooltip</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-17997599" onClick='toggleBox("Output-17997599", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17997599" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17997599">
+Verify Tooltip for Data Search<br/>
+ActualToolTip is Data Search<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyExportTooltip()'><b>VerifyExportTooltip</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-23445037" onClick='toggleBox("Output-23445037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23445037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23445037">
+Verify Tooltip for Export<br/>
+ActualToolTip is Export<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyFileNameWithPageName()'><b>VerifyFileNameWithPageName</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-11765471" onClick='toggleBox("Output-11765471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11765471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11765471">
+Validating FileName with selected Page/Form<br/>
+FileName is 'Customer.txt'<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyFileNamewithCSVFiletype()'><b>VerifyFileNamewithCSVFiletype</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-1599648" onClick='toggleBox("Output-1599648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1599648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1599648">
+Selecting FileType as CSV,and check FileName with extension<br/>
+Selected FileName is 'Customer.csv'<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyFileNamewithTEXTFiletype()'><b>VerifyFileNamewithTEXTFiletype</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-20735498" onClick='toggleBox("Output-20735498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20735498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20735498">
+Selecting FileType as TEXT,and check FileName with extension<br/>
+Selected FileName is 'Customer.txt'<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyFilterTooltip()'><b>VerifyFilterTooltip</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-13793772" onClick='toggleBox("Output-13793772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13793772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13793772">
+Verify Tooltip for Filter<br/>
+ActualToolTip is Filter<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyFormSelectPresenceOfData()'><b>VerifyFormSelectPresenceOfData</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-2429596" onClick='toggleBox("Output-2429596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2429596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2429596">
+Selecting the Form/Page from dropdown and verify the presence of data<br/>
+Total Records10<br/>
+Apply for Leave<br/>
+Customer<br/>
+Employee<br/>
+Mytest<br/>
+PersonDetails<br/>
+Sales Data<br/>
+SchoolTable<br/>
+Stock_Data<br/>
+StudentTable<br/>
+tstwl<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyMoveFieldFromColumn1ToColumn2()'><b>VerifyMoveFieldFromColumn1ToColumn2</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-10865340" onClick='toggleBox("Output-10865340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10865340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10865340">
+Move the Fields from column1 to column2<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyMoveFieldFromColumn2ToColumn1()'><b>VerifyMoveFieldFromColumn2ToColumn1</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-7476941" onClick='toggleBox("Output-7476941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7476941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7476941">
+Move fields form column2 to column1<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyNavigatingToNextPageWithoutFileName()'><b>VerifyNavigatingToNextPageWithoutFileName</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-1625462" onClick='toggleBox("Output-1625462", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1625462" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1625462">
+Verifying without Filename navigating to Next Page<br/>
+Alert Message 'Please enter file name.'<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyNextButtonFunctionalityWithFields()'><b>VerifyNextButtonFunctionalityWithFields</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-3550059" onClick='toggleBox("Output-3550059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3550059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3550059">
+Verify Next Button functionality along with fields<br/>
+Testcase PASS<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyNextButtonFunctionalityWithoutFields()'><b>VerifyNextButtonFunctionalityWithoutFields</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-24940596" onClick='toggleBox("Output-24940596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24940596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24940596">
+Verify Next button functionality without selecting fields to column2<br/>
+Alert Message 'Please select fields.'<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyNextbuttonWithoutSelectingForm()'><b>VerifyNextbuttonWithoutSelectingForm</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-11315482" onClick='toggleBox("Output-11315482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11315482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11315482">
+Verify Next button functionality without selecting Form/Page<br/>
+Alert Message 'Please select form.'<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyORconditionButton()'><b>VerifyORconditionButton</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-1412104" onClick='toggleBox("Output-1412104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1412104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1412104">
+Validating OR condition button on filter page<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyPresenceofDataonExportPage()'><b>VerifyPresenceofDataonExportPage</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-18703729" onClick='toggleBox("Output-18703729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18703729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18703729">
+Verifying after navigationg to previous and again naviagating to Export page data is present or not<br/>
+FileName is 'Customer.txt'<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyRemoveRowButton()'><b>VerifyRemoveRowButton</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-10915663" onClick='toggleBox("Output-10915663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10915663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10915663">
+Validating Remove Condition button and it is removing added rows<br/>
+Selecting 'EqualTo' value in 'Condition' dropdown field<br/>
+selecting = value from dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifySelectPageFields()'><b>VerifySelectPageFields</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-22769137" onClick='toggleBox("Output-22769137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22769137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22769137">
+Verify the functionality of 'Select Form' dropdown field<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyValidValue1field()'><b>VerifyValidValue1field</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-26428116" onClick='toggleBox("Output-26428116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26428116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26428116">
+Verify the functionality of Value1 Field With correct data<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyValue1fieldWithSpecialChar()'><b>VerifyValue1fieldWithSpecialChar</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-15668478" onClick='toggleBox("Output-15668478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15668478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15668478">
+Verify the functionality of Value1 Field with Special characters<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyValue2fieldDissable()'><b>VerifyValue2fieldDissable</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-11544354" onClick='toggleBox("Output-11544354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11544354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11544354">
+Verify Value2 Field is dissable<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyValue2fieldWithBetweenCondition()'><b>VerifyValue2fieldWithBetweenCondition</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-15259753" onClick='toggleBox("Output-15259753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15259753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15259753">
+Verify Value2 Field with 'BETWEEN' Condition, and value-2 field is enabled<br/>
+Field is Enabled<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyWithHeaderFunctionality()'><b>VerifyWithHeaderFunctionality</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-14679491" onClick='toggleBox("Output-14679491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14679491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14679491">
+Selecting 'With Header' Checkbox<br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.VerifyWithQuoteFunctionality()'><b>VerifyWithQuoteFunctionality</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-21537017" onClick='toggleBox("Output-21537017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21537017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21537017">
+Selecting 'With Quote' checkbox if TEXT filetype is selected<br/>
+'With Quote' Selected  <br/>
+Testcase PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+<tr>
+<td title='Scripts.ScriptExecution.selectconditionfield()'><b>selectconditionfield</b><br>Test class: Scripts.ScriptExecution<br/>
+<a href="#Output-9764144" onClick='toggleBox("Output-9764144", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9764144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9764144">
+Selecting 'EqualTo' value in 'Condition' dropdown field<br/>
+selecting = value from dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.ScriptExecution@11f8236</td></tr>
+</table><p>
+</body>
+</html>
