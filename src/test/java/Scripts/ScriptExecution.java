@@ -427,9 +427,10 @@ public class ScriptExecution extends TestBase {
 	@Test(priority=55)
 	public void VerifyingDoneButton() throws Exception
 	{
-		Reporter.log("Navigationg To Complete page after Export file is downloaded, Closing the Export Window");
-		getWebElement("CompleteTooltip").click();
-		validateElementIsDisplayed("DownloadButton");
+		Reporter.log("Closing the Export Window after Exported records gets exported");
+		getWebElement("DoneButton").click();
+		driver.switchTo().defaultContent();
+		validateElementIsDisplayed("AppTitle");
 	}
 	
 	
